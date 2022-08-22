@@ -7,7 +7,6 @@ const { readFileSync } = require("fs");
 const siteconfig = require("./content/_data/siteconfig.js");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
     // Set Markdown library
@@ -29,7 +28,6 @@ module.exports = function (eleventyConfig) {
     // And to make this work we've to disable the .gitignore usage of eleventy.
     eleventyConfig.setUseGitIgnore(false);
 
-    eleventyConfig.addPlugin(syntaxHighlight);
     // Add 3rd party plugins
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(pluginToc);

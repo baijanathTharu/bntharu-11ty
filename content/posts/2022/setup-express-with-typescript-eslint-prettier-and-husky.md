@@ -10,19 +10,19 @@ In this article, we are going to setup an express project with typescript, eslin
 
 **Initialize the project**
 
-```sh
+```bash
 npm init
 ```
 
 **Install typescript dependencies**
 
-```sh
+```bash
 npm i -D typescript ts-node
 ```
 
 **Create tsconfig.json**
 
-```sh
+```bash
 npx tsc --init
 ```
 
@@ -49,7 +49,7 @@ npx tsc --init
 
 ### Setup eslint
 
-```sh
+```bash
 npx eslint --init
 ```
 
@@ -67,7 +67,7 @@ In package.json file, add command for linting
 
 ### Setup prettier
 
-```sh
+```bash
 npm i -D prettier eslint-config-prettier
 ```
 
@@ -97,7 +97,7 @@ In eslint config, extend the plugin with prettier
 
 ### Setup husky for formatting
 
-```sh
+```bash
 npm i -D pretty-quick
 ```
 
@@ -105,7 +105,7 @@ pretty-quick will format our code before committing.
 
 **Initialize husky**
 
-```sh
+```bash
 npx husky-init && npm install
 ```
 

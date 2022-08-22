@@ -12,7 +12,7 @@ We can use [standard-version](https://github.com/conventional-changelog/standard
 
 1. Install standard-version
 
-```sh
+```bash
 npm i --save-dev standard-version
 ```
 
@@ -28,13 +28,13 @@ npm i --save-dev standard-version
 
 3. Generate first release
 
-```sh
+```bash
 npm run release -- --first-release
 ```
 
 4. For subsequent releases
 
-```sh
+```bash
 npm run release
 # can add **tags** option to generate tag
 ```

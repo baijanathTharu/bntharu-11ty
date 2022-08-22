@@ -15,7 +15,7 @@ image: /assets/images/2021/code.jpg
 
 -   Uses:
 
-```sh
+```bash
 # Scan your project for vulnerabilities and automatically install any compatible updates to vulnerable dependencies
 npm audit fix
 
