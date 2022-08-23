@@ -125,3 +125,5 @@ This is the list of all the important posts that I think are worth reading.
 -   [Programming’s Greatest Mistakes - Mark Rendle - NDC Copenhagen 2022](https://www.youtube.com/watch?v=qC_ioJQpv4E)
 
 -   [Adding Circuit Breakers to Node.Js APIs](https://selvaganesh93.medium.com/adding-circuit-breakers-to-nodejs-apis-8c980d3e96c4)
+
+-   [How Redis Can Make Authentication 10x Easier For Your Users](https://javascript.plainenglish.io/how-redis-can-make-authentication-10x-easoer-for-your-users-cd8c0601d38)
